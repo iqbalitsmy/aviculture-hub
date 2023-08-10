@@ -1,0 +1,9 @@
+/* Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Cabin', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+}
