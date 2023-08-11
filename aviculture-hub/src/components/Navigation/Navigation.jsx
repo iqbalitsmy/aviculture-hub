@@ -41,7 +41,7 @@ const Navigation = () => {
                                     </button>
                                 </a>
                                 <ul
-                                    className={`absolute shadow-xl pl-5 pt-3 pr-14 ${open ? "block" : "hidden"
+                                    className={`absolute bg-white shadow-xl pl-5 pt-3 pr-14 ${open ? "block" : "hidden"
                                         }`}
                                 >
                                     <li className="hover:text-[#32b374] px-5 py-4">
@@ -86,7 +86,7 @@ const Navigation = () => {
                                     </button>
                                 </a>
                                 <ul
-                                    className={`absolute shadow-xl pl-5 pt-3 pr-14 ${open ? "block" : "hidden"
+                                    className={`absolute bg-white shadow-xl pl-5 pt-3 pr-14 ${open ? "block" : "hidden"
                                         }`}
                                 >
                                     <li className="hover:text-[#32b374] px-5 py-4">
@@ -136,7 +136,7 @@ const Navigation = () => {
                                     </button>
                                 </a>
                                 <ul
-                                    className={`absolute shadow-xl pl-5 pt-3 pr-14 ${open ? "block" : "hidden"
+                                    className={`absolute bg-white shadow-xl pl-5 pt-3 pr-14 ${open ? "block" : "hidden"
                                         }`}
                                 >
                                     <li className="hover:text-[#32b374] px-5 py-4">
