@@ -1,5 +1,6 @@
 import React from 'react';
 import BlogCard from '../BlogCard/BlogCard';
+import PopularProducts from '../PopularProducts/PopularProducts';
 
 import image1 from "../images/blogs/1.jpg"
 import image2 from "../images/blogs/2.jpg"
@@ -41,15 +42,45 @@ const blogs = [
     }
 ]
 
+const secondBlogs = [
+    {
+        id: 7,
+        title: "Mulga Parrot",
+        image: image1,
+    },
+    {
+        id: 8,
+        title: "New to softbills? Superb Fairy-wrens are a great introductory species",
+        image: image2,
+    },
+    {
+        id: 9,
+        title: "Regent Parrot",
+        image: image3,
+    },
+]
+
 const BlogsCards = () => {
     return (
-        <section className='container mx-auto mt-12 mb-14'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9'>
-                {
-                    blogs.map(blog => <BlogCard key={blog.id} blog={blog}></BlogCard>)
-                }
-            </div>
-        </section>
+        <>
+            <section className='container mx-auto mt-12 mb-14'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9'>
+                    {
+                        blogs.map(blog => <BlogCard key={blog.id} blog={blog}></BlogCard>)
+                    }
+                </div>
+            </section>
+
+            <PopularProducts></PopularProducts>
+            
+            <section className='container mx-auto mt-12 mb-14'>
+                <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9'>
+                    {
+                        secondBlogs.map(blog => <BlogCard key={blog.id} blog={blog}></BlogCard>)
+                    }
+                </div>
+            </section>
+        </>
     );
 };
 
