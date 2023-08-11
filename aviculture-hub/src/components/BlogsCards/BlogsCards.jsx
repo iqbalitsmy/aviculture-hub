@@ -43,7 +43,7 @@ const blogs = [
 
 const BlogsCards = () => {
     return (
-        <section className='container mx-auto mt-12'>
+        <section className='container mx-auto mt-12 mb-14'>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-9'>
                 {
                     blogs.map(blog => <BlogCard key={blog.id} blog={blog}></BlogCard>)

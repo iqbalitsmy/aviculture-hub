@@ -12,6 +12,9 @@ const BlogCard = ({ blog }) => {
             <figure>
                 <img className='max-w-full h-auto' src={image} alt="Bird Image" />
             </figure>
+            <div className='text-white mt-4'>
+                <button type="button" className='bg-[#32b374] py-3 px-4 rounded-3xl hover:bg-black'>Read More</button>
+            </div>
         </div>
     );
 };

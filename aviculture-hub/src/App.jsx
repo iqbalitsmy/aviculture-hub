@@ -1,6 +1,7 @@
 import './App.css'
 import BlogsCards from './components/BlogsCards/BlogsCards'
 import Header from './components/Header/Header'
+import PopularProducts from './components/PopularProducts/PopularProducts'
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
       <Header></Header>
       <main>
         <BlogsCards></BlogsCards>
+        <PopularProducts></PopularProducts>
       </main>
     </>
   )
